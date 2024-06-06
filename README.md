@@ -15,7 +15,7 @@ An APS Portfolio
 <dd>Youtube</dd>
 * * *
 
-> A step towards enhancing Youtube service management.>
+> A step towards enhancing Youtube service management.
 
 This page hosts:
 
