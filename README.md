@@ -1,5 +1,5 @@
 # Youtube.github.io
-An APS Portfolio
+APS Portfolio
 # YouTube's Smart Data Structures: Enhancing Algorithmic Performance
 <dl>
 <dt>Course Name</dt>
