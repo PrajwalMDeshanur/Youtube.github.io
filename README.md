@@ -37,5 +37,6 @@ This portfolio delves into the core principles of algorithm design and data stru
 # Why Portfolio
 A portfolio is neccesary to showcase to understand the application of Data structure and algorithm,system design and analysis of real-world problems. It enables to know the current market needs, trends and current innovation in the Youtube domain.
 
-
+# Objectives
+1. 
 
