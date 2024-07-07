@@ -51,7 +51,31 @@ The portfolio bridges academic concepts with practical applications, showcasing 
 
 # Business Use Cases
 
+**1. Search Completion or suggestion in PW App**
 
+Use Case.
+The app aims to deliver real-time search suggestions as students input their queries. These suggestions include relevant course names, teacher names, and specific topics, considering the user’s preferences, past interactions, and current academic trends. By proactively anticipating student needs and providing precise suggestions, Physics Wallah can streamline the search process, aiding in quick decision-making and enhancing student satisfaction. This feature is especially crucial during peak study times when students expect swift and efficient access to their desired courses and teachers.
+
+Challengs:
+The main challenge lies in efficiently managing a vast and continuously evolving database of courses, teachers, and educational content. Additionally, the system must handle a wide range of user queries, including typos, abbreviations, and varying degrees of specificity. Another critical challenge is balancing the breadth of suggestions with their relevance to the student’s preferences and academic needs.
+
+Market Benifts:
+An effective live search feature can significantly boost user engagement and satisfaction. By reducing the time and effort required to find the right courses or teachers, Physics Wallah can encourage more frequent usage and foster increased student loyalty. The personalized nature of the suggestions may also lead to the exploration of new courses and topics, enriching the overall learning experience and distinguishing Physics Wallah from its competitors.Use tries for substring matching and auto-suggestions as the user types. Use the inverted index for broader keyword searches.
+
+Algorithms:
+
+Trie (Prefix Tree):
+
+Structure: A tree-like structure where each node represents a prefix of a word.
+Use: Efficiently finds all words starting with a given prefix, ideal for substring matching and auto-suggestions.
+Time Complexity (Search): O(L), where L is the length of the query.
+Space Complexity: O(N*L), where N is the number of words and L is the average word length.
+Inverted Index:
+
+Structure: A mapping of keywords to the documents (courses or teachers) they appear in.
+Use: Quickly retrieves all documents containing a specific keyword, ideal for broader keyword searches.
+Time Complexity (Search): O(k), where k is the number of documents containing the keyword.
+Space Complexity: O(N*L), where N is the number of documents and L is the average document length.
 
  
 
