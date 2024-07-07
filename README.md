@@ -10,20 +10,20 @@
 <dt>University</dt>
 <dd>KLE Technological University, Hubballi-31</dd>
 <dt>Portfolio Domain</dt>
-<dd>Education Platform</dd>
+<dd>Education Platform:PW</dd>
 </dl>
 
 * * *
 
-> A step towards enhancing Youtube service.
+> A step towards enhancing PW's service.
 
 This page hosts:
 
-1. Introduction
-3. Why Portfolio
-4. Objectives
-5. Challenges 
-6. To-do
+**1.** Introduction
+**2. Need of Portfolio
+**3.** Objectives
+**4.** Business Use Cases
+**5.** References
 
 # Introduction
 Implementation of efficient Datastructure and Algorithm in enhancing of students experience.
@@ -37,5 +37,11 @@ By using advanced algorithmic techniques and innovative data structures, this pr
 The portfolio bridges academic concepts with practical applications, showcasing the ability to apply theoretical knowledge from DSA and APS courses to real-world challenges.It highlights not only the capability to solve practical problems but also a commitment to advancing the quality and effectiveness of the services, making it a valuable asset for educational innovation and professional growth in the education sector.Enhancing features such as personalized learning pathways, content recommendations, and performance analytics can significantly improve student engagement and satisfaction. 
 
 # Objectives
-1. 
+**1.** Applying theoretical concepts from Data Structures and Algorithms (DSA) and Algorithmic Problem Solving (APS) course to practical, real-world problems within the PW platform.
+**2.** Addressing specific business challenges faced by PW through the application of algorithmic problem solving.
+**3.** Improving data processing and analytics to provide valuable insights to PW's users for recommendation of courses.
+**4.**Introduction of effective and optimal algorithm to already exisiting algorithm.
+
+
+ 
 
