@@ -1,6 +1,5 @@
 # PW-An Online Education Platform Portfolio
-The PW App is your best one-stop resource for all educational needs! Be it Physics, Chemistry, Maths, Engineering Sciences, Biology (including Botany and Zoology), Accounting, Economics, Law & many more, become a part of the learning revolution that is taking over India.
-# PW's Smart Data Structures: Enhancing Algorithmic Performance
+# PW's Smart Data Structures: Enhancing Quality Education
 <dl>
 <dt>Course Name</dt>
 <dd>Algorithmic Problem Solving</dd>
@@ -11,7 +10,7 @@ The PW App is your best one-stop resource for all educational needs! Be it Physi
 <dt>University</dt>
 <dd>KLE Technological University, Hubballi-31</dd>
 <dt>Portfolio Domain</dt>
-<dd>Youtube</dd>
+<dd>Education Platform</dd>
 </dl>
 
 * * *
@@ -27,8 +26,8 @@ This page hosts:
 6. To-do
 
 # Introduction
-Implementation of efficient Datastructure and Algorithm in enhancing of Youtube's experience.
-In today's digital age, online platforms like YouTube have become an integral part of our daily lives, revolutionizing how we consume and interact with content. As the user experience on platforms like YouTube continues to evolve.With DSA knowlege which has been delivered in Algorithmic Problem Solving (APS) course, applying the concept to enhance performance, optimizing algorithms, and improving data structures to ensure a seamless and engaging user experience.
+Implementation of efficient Datastructure and Algorithm in enhancing of students experience.
+The advent of online education has changed the entire conventional process of learning. It made the students learn anything sitting at any corner across the country. Pandemic brought coaching institutions to teach students in the online domain. This brought great flexibility to the learning process and shortened the learning gap between the students.
 
 By using advanced algorithmic techniques and innovative data structures, this project aims to propose solutions to real-world business challenges. From refining search engine algorithms to improvision recommendation of videos and shorts.
 
