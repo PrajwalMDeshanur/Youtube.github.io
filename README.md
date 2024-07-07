@@ -52,7 +52,9 @@ The portfolio bridges academic concepts with practical applications, showcasing 
 # Business Use Cases
 
 **1. Search Completion or suggestion in PW App**
-**Algorithms:**Trie and InvertedIndexed
+
+**Algorithms:** Trie and InvertedIndexed
+
 **Use Case.**
 The app aims to deliver real-time search suggestions as students input their queries. These suggestions include relevant course names, teacher names, and specific topics, considering the user’s preferences, past interactions, and current academic trends. By proactively anticipating student needs and providing precise suggestions, Physics Wallah can streamline the search process, aiding in quick decision-making and enhancing student satisfaction. This feature is especially crucial during peak study times when students expect swift and efficient access to their desired courses and teachers.
 
