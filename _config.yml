@@ -1,3 +1,5 @@
+title: PW-An Online Education Platform Portfolio
+description: The PW App is your best one-stop resource for all educational needs! Be it Physics, Chemistry, Maths, Engineering Sciences, Biology (including Botany and Zoology), Accounting, Economics, Law & many more, become a part of the learning revolution that is taking over India.
 remote_theme: pages-themes/cayman@v0.2.0
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
