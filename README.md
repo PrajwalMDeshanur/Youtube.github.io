@@ -19,11 +19,15 @@
 
 This page hosts:
 
-**1.** Introduction 
-**2**. Need of Portfolio
-**3.** Objectives
-**4.** Business Use Cases 
-**5.** References 
+**1. Introduction**
+
+**2. Need of Portfolio**
+
+**3. Objectives**
+
+**4. Business Use Cases**
+
+**5. References**
 
 # Introduction
 Implementation of efficient Datastructure and Algorithm in enhancing of students experience.
@@ -43,7 +47,10 @@ The portfolio bridges academic concepts with practical applications, showcasing 
 
 **3.** Improving data processing and analytics to provide valuable insights to PW's users for recommendation of courses.
 
-**4.** Introduction of effective and optimal algorithm to already existing algorithm.
+**4.** Introduction of effective and optimal algorithms to already existing algorithm.
+
+# Business Use Cases
+
 
 
  
