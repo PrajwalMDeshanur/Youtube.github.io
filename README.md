@@ -20,7 +20,7 @@
 This page hosts:
 
 **1.** Introduction
-**2. Need of Portfolio
+**2**. Need of Portfolio
 **3.** Objectives
 **4.** Business Use Cases
 **5.** References
