@@ -49,10 +49,10 @@ The portfolio bridges academic concepts with practical applications, showcasing 
 
 **4.** Introduction of effective and optimal algorithms to already existing algorithm.
 
-#$ Business Use Cases
+## Business Use Cases
 
-###**1. Search Completion or suggestion in PW App**
-### 1. **Profile Matching for Job Fit**
+### 1.**Search Completion or suggestion in PW App**
+
 
 **Algorithm**: Trie and InvertedIndexed
 
@@ -67,7 +67,6 @@ An effective live search feature can significantly boost user engagement and sat
 
 **Complexity Analysis**
 
-T
 
 
 **2. Ranked Search Results for Physics Wallah App**
