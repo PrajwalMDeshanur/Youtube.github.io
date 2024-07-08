@@ -71,7 +71,7 @@ The portfolio bridges academic concepts with practical applications, showcasing 
 Time Complexity: O(1) on average for keyword lookups.
 Space Complexity: O(n * m) where n is the number of documents and m is the average length of documents.
 
-**2. Ranked Search Results for Physics Wallah App**
+### **2. Ranked Search Results for Physics Wallah App**
 
 - Max-Heap (Priority Queue) Algorithm: To prioritize and display search results based on relevance and user preferences.
 
@@ -92,7 +92,7 @@ Time Complexity: O(log n) for insertion and extraction in the Min-Heap.
 Space Complexity: O(n) proportional to the number of pending notifications.
  
 
-**3. Real-Time Notifications**
+### **3. Real-Time Notifications**
 
 - Min-Heap: To enhance student engagement and ensure timely delivery of updates.
 
@@ -110,7 +110,7 @@ Time Complexity: O(log n) for insertion and extraction in the Min-Heap.
 Space Complexity: O(n) proportional to the number of pending notifications.
  
 
-**4. PW Store for Merchandise, Books, and Student-Related Items**
+### **4. PW Store for Merchandise, Books, and Student-Related Items**
 
 - Inventory Management and Personalized Recommendations
 Balanced Binary Search Tree (BST) for Inventory Management:
@@ -132,7 +132,7 @@ To enhance the shopping experience, the store employs collaborative filtering al
 Time Complexity: O(log n) for insertions, deletions, and searches.
 Space Complexity: O(n).
 
-**5. Real-Time Course Progress Tracking**
+### **5. Real-Time Course Progress Tracking**
 
 - Segment Tree: The platform tracks students' course progress in real-time, providing timely insights and updates on completed and pending lessons. This allows both students and educators to monitor progress accurately and make data-driven decisions.
   
@@ -151,7 +151,7 @@ Time Complexity: O(log n) for range queries and updates.
 Space Complexity: O(n).
  
 
-**6. Efficient Resource Allocation for Online Classes**
+### **6. Efficient Resource Allocation for Online Classes**
 
 - Knapsack Problem Algorithm: The platform allocates resources such as bandwidth, server capacity, and tutor availability for online classes to ensure a smooth and efficient learning experience for students.
   
@@ -170,7 +170,7 @@ Space Complexity: O(n).
 Time Complexity: O(nW) where n is the number of classes and W is the total available resources (e.g., bandwidth units).
 Space Complexity: O(nW) due to the dynamic programming table used for computing the optimal allocation.
  
-**7.Nearby Location Student Profiles Auto-Suggestion**
+### **7.Nearby Location Student Profiles Auto-Suggestion**
 
 - K-D Tree: The platform provides auto-suggestions for student profiles based on nearby locations, allowing users to connect with other students in their vicinity for study groups, collaborations, or social interactions.
   
@@ -190,7 +190,7 @@ Insertion: O(log n) for inserting a student profile into the K-D Tree.
 Nearest Neighbor Search: O(log n) for querying nearby student profiles.
 Space Complexity: O(n) proportional to the number of student profiles.
 
-**8.Trending Course Identification**
+### **8.Trending Course Identification**
 
 - Quick Sort: The platform identifies trending courses based on recent enrollments and user interactions, displaying these courses prominently to users. This helps students stay updated with popular courses and aligns the platform's offerings with current trends.
   
@@ -210,7 +210,7 @@ Time Complexity:
 Time Complexity: The average time complexity of Quick Sort is O(n log n), where n is the number of courses.
 Space Complexity: The space complexity of Quick Sort is O(log n) for the in-place version, which is needed for the recursion stack.
 
-**9.Finding All Vidyapeeth (Offline Classes) for Students**
+### **9.Finding All Vidyapeeth (Offline Classes) for Students**
 
 -  k-d Trees (k-dimensional Trees): Physics Wallah aims to provide students with quick and accurate information about nearby offline classes (Vidyapeeth). By utilizing geospatial data structures like k-d trees to store and query locations of offline classes, the platform can efficiently find all Vidyapeeth within a specified radius of the student's location, enhancing their learning experience.
   
@@ -231,7 +231,7 @@ Time Complexity:
 Time Complexity: k-d Trees provide O(log n) average time complexity for range queries, where n is the number of Vidyapeeth locations.
 Space Complexity: k-d Trees require O(n) space complexity, where n is the number of Vidyapeeth locations.
 
-**10. Matching Students with Saarthi Personal Teachers and Rank-Producing Educators**
+### **10. Matching Students with Saarthi Personal Teachers and Rank-Producing Educators**
 
 -  Assignment Problem Algorithm : Physics Wallah aims to enhance its VP Live service by efficiently matching students with Saarthi personal teachers and rank-producing educators. This involves using the assignment problem algorithm to allocate resources (teachers) to tasks (students) in an optimal way, ensuring personalized attention and improving academic outcomes.
   
@@ -253,7 +253,7 @@ Time Complexity: The Hungarian algorithm has a time complexity of O(n^3), where 
 Space Complexity: The space complexity is O(n^2), as it requires storing the cost matrix and auxiliary data structures.
 
 
-**10. Efficient Video Transcoding for Enhanced Student Experience**
+### **10. Efficient Video Transcoding for Enhanced Student Experience**
 
 -  Huffman Coding: Physics Wallah aims to enhance the student experience by efficiently handling video uploads for its VP Live service and other educational content. Given the high volume of video data generated by interactive classes and educational material, an efficient transcoding system is crucial. This involves using HEVC for video compression and Huffman Coding for compressing metadata, ensuring that videos are processed and made available in multiple formats and resolutions with minimal latency.
   
@@ -274,7 +274,7 @@ Time Complexity:
 Time Complexity: O(nlog(n)), where n is the number of unique characters in the metadata.
 Space Complexity: O(n), for storing the Huffman tree and encoded data.
 
-**11. Personalized Playlist for Students on Physics Wallah App**
+### **11. Personalized Playlist for Students on Physics Wallah App**
 
 - Topological Sort: Physics Wallah allows students to save personalized playlists for future viewing. This feature organizes educational videos, ensuring that related content is recommended in the correct sequence. For example, if a student is watching "Physics Class 12 - Kinematics Part 1," subsequent parts will be suggested in a linear and logical order. By treating each video as a node in a Directed Acyclic Graph (DAG) and using topological sort, the app can recommend videos in the appropriate sequence based on their dependencies.
   
@@ -295,7 +295,7 @@ Time Complexity: O(V + E), where V is the number of videos and E is the number o
 Space Complexity: O(V), as the extra space is needed for the stack used in the DFS-based topological sort.
 
 
-**12.  Load Balancing for Physics Wallah's Online Classes**
+### **12.  Load Balancing for Physics Wallah's Online Classes**
 
 - Weighted Round Robin Load Balancing: PPhysics Wallah provides live online classes, which can attract a high number of concurrent users, especially during peak times. To ensure smooth streaming and minimal latency, load balancing techniques are used to distribute user requests efficiently across multiple servers. This prevents any single server from becoming a bottleneck and ensures a high-quality user experience.
   
