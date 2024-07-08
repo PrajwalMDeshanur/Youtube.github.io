@@ -43,13 +43,13 @@ By using advanced algorithmic techniques and innovative data structures, this pr
 The portfolio bridges academic concepts with practical applications, showcasing the ability to apply theoretical knowledge from DSA and APS courses to real-world challenges.It highlights not only the capability to solve practical problems but also a commitment to advancing the quality and effectiveness of the services, making it a valuable asset for educational innovation and professional growth in the education sector.Enhancing features such as personalized learning pathways, content recommendations, and performance analytics can significantly improve student engagement and satisfaction. 
 
 # Objectives
-**1.** Applying theoretical concepts from Data Structures and Algorithms (DSA) and Algorithmic Problem Solving (APS) course to practical, real-world problems within the PW platform. 
+**1.** Applying theoretical concepts from Data Structures and Algorithms (DSA) and Algorithmic Problem Solving (APS) course to practical, real-world problems within the PW's platform. 
 
-**2.** Addressing specific business challenges faced by PW through the application of algorithmic problem solving.
+**2.** Addressing specific business challenges faced by PW platform through the application of algorithmic problem solving.
 
 **3.** Improving data processing and analytics to provide valuable insights to PW's users for recommendation of courses.
 
-**4.** Introduction of effective and optimal algorithms to already existing algorithm.
+**4.** Introduction of effective and optimal algorithms to enhance the services.
 
 # Business Use Cases
 
@@ -61,11 +61,9 @@ The portfolio bridges academic concepts with practical applications, showcasing 
 
 - Database Management: Efficiently managing a vast and evolving database of courses, teachers, and educational content.
 - Query Handling: Handling diverse user queries including typos, abbreviations, and varying specificity levels.
-- Relevance Balancing: Balancing broad suggestions with relevance to student preferences and academic needs.
   
 **Market Benifts:**
-  
-- Enhanced User Engagement: Swift access to desired courses and teachers boosts satisfaction and encourages frequent app usage.
+
 - Increased User Satisfaction: Personalized suggestions improve user experience and loyalty.
 - Exploratory Learning: Encourages exploration of new courses and topics, enriching overall learning experiences.
 
@@ -81,18 +79,16 @@ Here is my code for: [InvertedIndex](Code/InvertedIndex.cpp),[Trie](Code/Trie.cp
 
 ### **2. Ranked Search Results for Physics Wallah App**
 
-- Max-Heap (Priority Queue) Algorithm: To prioritize and display search results based on relevance and user preferences.
+- Max-Heap (Priority Queue) Algorithm: To prioritize and display relavant search results.
 
 **Limitations and Challengs:**
 - Max-Heap: While effective for maintaining a priority queue of search results, it requires continual reordering as new results are added or user preferences change, which can impact real-time responsiveness.
 
 - Ranking Algorithm: Accurately reflecting student preferences and adapting to real-time changes.
 - Delivery Assurance: Ensuring search results are timely and efficiently managed.
-- Scalability: Handling large volumes of search queries as user base grows.
 
 **Market Benifts:**
-  
-- Improved Communication: Keeps students informed about updates, deadlines, and new content.
+
 - Increased Engagement: Maintains interest and participation, leading to higher retention.
 - Enhanced User Experience: Ensures prompt delivery of relevant search results for a smooth user experience.
 
@@ -109,6 +105,7 @@ Here is my code for:[Priority Queue](Code/Priority_Queue.cpp).
 **Limitations and Challengs:**
 
 - Min-Heap: While efficient for prioritizing and managing notifications based on urgency, it requires continuous reordering as priorities change dynamically, potentially impacting performance in real-time scenarios with rapid updates.
+  
 - The primary challenge is creating a ranking algorithm that accurately reflects student preferences and priorities. This requires collecting and analyzing vast amounts of data, such as past enrollments, search history, and interactions with the app. The algorithm also needs to adapt to real-time changes, such as course availability or new teacher ratings.
 
 **Market Benifts:**
@@ -131,15 +128,13 @@ Balanced Binary Search Tree (BST) for Inventory Management:
 - Collaborative Filtering for Personalized Recommendations:
 To enhance the shopping experience, the store employs collaborative filtering algorithms. This approach provides tailored product recommendations based on user preferences and purchase history, helping to increase engagement and sales.
 
-**Limitations and Challengs**
+**Limitations**
 - Hash Table for Inventory Management: While hash tables provide O(1) average time complexity for insertions and lookups, they are not suitable for range queries, which are essential for managing inventory levels and filtering items based on price or category.
 - Simple List for Personalized Recommendations: A simple list would require O(n) time complexity for searching and filtering recommendations, making it inefficient for real-time use with a large number of users and items.
 
 **Market Benifts:**
 - Enhanced Shopping Experience: Seamless and intuitive shopping increases customer satisfaction and sales.
 - Improved Inventory Management: Efficient tracking reduces stockouts and overstock situations.
-- Personalized Recommendations: Tailored suggestions based on user behavior increase average order value and loyalty.
-
 
 Time Complexity: O(log n) for insertions, deletions, and searches.
 
@@ -151,12 +146,11 @@ Here is my code:[Red-Black Tree](Code/Red_Black_Tree.cpp).
 
 - Segment Tree: The platform tracks students' course progress in real-time, providing timely insights and updates on completed and pending lessons. This allows both students and educators to monitor progress accurately and make data-driven decisions.
   
-**Limitations and Challengs**
+**Limitations**
 
 - Real-Time Updates: Ensuring progress data is updated promptly as students complete lessons.
 - Data Aggregation: Efficiently aggregating and summarizing progress across multiple courses.
-- Scalability: Managing progress tracking for a large and growing number of students.
-  
+
 **Market Benifts:**
 - Enhanced User Experience: Provides students with timely feedback on their progress, keeping them motivated.
 - Improved Learning Outcomes: Helps students and educators identify areas needing attention, ensuring timely interventions.
@@ -168,42 +162,18 @@ Space Complexity: O(n).
 
  Here is my code:[Segment Tree](Code/Segment_Tree.cpp)
 
-### **6. Efficient Resource Allocation for Online Classes**
+### **6.Nearby Location Student Profiles Auto-Suggestion**
 
-- Knapsack Problem Algorithm: The platform allocates resources such as bandwidth, server capacity, and tutor availability for online classes to ensure a smooth and efficient learning experience for students.
-  
-**Limitations and Challengs**
-
-- Greedy Algorithm: May not provide an optimal solution for resource allocation, especially when dealing with diverse resource types and varying class requirements.
-- Resource Optimization: Efficiently allocating limited resources to maximize the number of successful class sessions.
-- Real-Time Allocation: Adjusting resource allocation dynamically based on current demand.
-- Scalability: Handling increasing resource demands as the number of students and classes grows.
-
-**Market Benifts:**
-- Enhanced User Experience: Ensures smooth and uninterrupted online classes.
-- Resource Efficiency: Optimizes the use of available resources, reducing operational costs.
-- Scalability: Supports a growing number of students and classes without degradation in quality.
-
-Time Complexity: O(nW) where n is the number of classes and W is the total available resources (e.g., bandwidth units).
-
-Space Complexity: O(nW) due to the dynamic programming table used for computing the optimal allocation.
-
-Here is my code:[Knapsack.cpp](Code/Knapsack.cpp)
-
-### **7.Nearby Location Student Profiles Auto-Suggestion**
-
-- K-D Tree: The platform provides auto-suggestions for student profiles based on nearby locations, allowing users to connect with other students in their vicinity for study groups, collaborations, or social interactions.
+- K-D Tree: The platform provides auto-suggestions for student profiles based on nearby locations, allowing users to connect with other students in their locality for study groups, collaborations, or social interactions.
   
 **Limitations and Challengs**
 
 - Efficient Spatial Queries: Managing spatial data efficiently to provide real-time suggestions.
-- Scalability: Handling a large and growing number of student profiles.
 - Accuracy: Ensuring the accuracy of location data and relevance of suggestions.
 
 **Market Benifts:**
 - Enhanced Social Learning: Encourages students to form study groups and collaborate with peers nearby.
 - Increased Engagement: Promotes active participation and interaction among students.
-- Personalized User Experience: Provides relevant and location-based profile suggestions, enhancing user satisfaction.
   
 Time Complexity:
 Insertion: O(log n) for inserting a student profile into the K-D Tree.
@@ -220,14 +190,11 @@ Here is my Code:[K-D Trees](Code/KD-Trees.cpp)
 **Limitations and Challengs**
 
 - Efficient Data Handling: Managing and sorting the massive volume of course interaction data generated by user enrollments and activity.
-- Real-Time Updates: Continuously updating the trending course list as new data points (enrollments and interactions) are added.
-- Scalability: Efficiently processing large datasets to ensure the platform remains responsive and up-to-date.
   
 **Market Benifts:**
 
 - Increased Engagement: Highlighting trending courses attracts user attention and encourages enrollments.
-- Enhanced User Experience: Keeps the platform dynamic and relevant by showcasing popular courses.
-- Revenue Growth: Driving more enrollments in trending courses can increase revenue
+- Revenue Growth: Driving more enrollments in trending courses can increase revenue.
 
 Time Complexity: The average time complexity of Quick Sort is O(n log n), where n is the number of courses.
 
@@ -237,18 +204,15 @@ Here is my Code:[Quick Sort](Code/Quick_Sort.cpp)
 
 ### **9.Finding All Vidyapeeth (Offline Classes) for Students**
 
--  k-d Trees (k-dimensional Trees): Physics Wallah aims to provide students with quick and accurate information about nearby offline classes (Vidyapeeth). By utilizing geospatial data structures like k-d trees to store and query locations of offline classes, the platform can efficiently find all Vidyapeeth within a specified radius of the student's location, enhancing their learning experience.
+-  K-D Trees: Physics Wallah App aims to provide students with quick and accurate information about nearby offline classes (Vidyapeeth). By utilizing geospatial data structures like k-d trees to store and query locations of offline classes, the platform can efficiently find all Vidyapeeth within a specified radius of the student's location, enhancing their learning experience.
   
 **Limitations and Challengs**
 
-- Managing Dynamic Data: Continuously updating the dataset of Vidyapeeth locations as new classes open and existing ones change their status.
-- Real-Time Query Response: Ensuring real-time response times for location-based queries to provide a seamless user experience.
 - Edge Cases: Handling scenarios where students are in areas with limited or no nearby offline classes, requiring the system to provide alternative suggestions or solutions.
   
 **Market Benifts:**
 
 - Enhanced User Experience: Provides quick and convenient access to information about nearby offline classes, improving the overall learning experience.
-- Increased Engagement: Encourages students to participate in offline classes by making it easy to find and enroll in nearby options.
 - Community Building: Supports local educational institutions by increasing their visibility and fostering stronger community ties.
 
   
@@ -266,12 +230,10 @@ Here is my Code:[K-D Trees](Code/KD-Trees.cpp)
 **Limitations and Challengs**
 
 - Optimal Matching: Ensuring the best possible match between students and teachers based on preferences, availability, and expertise.
-- Scalability: Handling a large number of students and teachers while maintaining real-time matching efficiency.
 - Dynamic Adjustments: Continuously updating assignments as new students enroll and teacher availability changes.
   
 **Market Benifts:**
 
-- Personalized Learning: Provides students with tailored support, enhancing their learning experience and outcomes.
 - Efficient Resource Allocation: Ensures that the best teachers are matched with students who can benefit the most, maximizing educational impact.
 - Competitive Advantage: Differentiates the platform by offering high-quality, personalized education services.
 
@@ -297,7 +259,7 @@ Here is my code:[Job Assignment](Code/job_assignment.cpp)
 - Continuous Playback on All Devices: Ensures that videos are available in multiple formats and resolutions, providing seamless playback on various devices and network conditions.
 - Enhanced User Experience: Minimizes latency in video availability, ensuring students can access content quickly and without interruptions.
 
-Time Complexity: O(nlog(n)), where n is the number of unique characters in the metadata.
+Time Complexity: O(n*log(n)), where n is the number of unique characters in the metadata.
 
 Space Complexity: O(n), for storing the Huffman tree and encoded data.
 
@@ -379,22 +341,25 @@ By bridging theory with real-world scenarios, this portfolio showcases the subst
 
 # References
 
-[1]Physcics Wallah,https://www.pw.live/ 
 
-[2] Inverted Index Code,https://www.geeksforgeeks.org/inverted-index/
 
-[3] Trie Code,https://www.geeksforgeeks.org/trie-insert-and-search/
+[1]Physcics Wallah, [https://www.pw.live/](https://www.pw.live/)
 
-[4] François Aubry, "Graphs - Topological sort",INGInious, https://inginious.org/course/competitive-programming/graphs-toposort
+[2] Inverted Index Code,[https://www.geeksforgeeks.org/inverted-index/](https://www.geeksforgeeks.org/inverted-index/)
 
-[5] Quora PW Business Model,https://www.quora.com/What-is-the-business-model-of-Physics-Wallah
+[3] Trie Code,[https://www.geeksforgeeks.org/trie-insert-and-search/](https://www.geeksforgeeks.org/trie-insert-and-search/)
 
-[6], Yasin,KD Trees,https://codeofcode.org/lessons/kd-trees-in-cpp/
+[4] François Aubry, "Graphs - Topological sort",INGInious, [https://inginious.org/course/competitive-programming/graphs-toposort](https://inginious.org/course/competitive-programming/graphs-toposort)
 
-[7] Sebastian De Lima, "A quick explanation of DFS & BFS (Depth First Search & Breadth-First Search)", Medium, https://medium.com/analytics-vidhya/a-quick-explanation-of-dfs-bfs-depth-first-search-breadth-first-search-b9ef4caf952c
+[5] Quora PW Business Model,https:[//www.quora.com/What-is-the-business-model-of-Physics-Wallah](//www.quora.com/What-is-the-business-model-of-Physics-Wallah)
 
-[8] locus, "Traveling Salesman Problem Visualization", https://blog.locus.sh/travelling-salesman-problem-and-how-can-tech-solve-it/
+[6], Yasin,KD Trees,[https://codeofcode.org/lessons/kd-trees-in-cpp/](https://codeofcode.org/lessons/kd-trees-in-cpp/)
 
-[9] Job Assignment,https://www.geeksforgeeks.org/job-assignment-problem-using-branch-and-bound/
+[7] Sebastian De Lima, "A quick explanation of DFS & BFS (Depth First Search & Breadth-First Search)", Medium, [https://medium.com/analytics-vidhya/a-quick-explanation-of-dfs-bfs-depth-first-search-breadth-first-search-b9ef4caf952c](https://medium.com/analytics-vidhya/a-quick-explanation-of-dfs-bfs-depth-first-search-breadth-first-search-b9ef4caf952c)
 
-[10] Huffman Coding Algorithm,https://www.programiz.com/dsa/huffman-coding.
+[8] locus, "Traveling Salesman Problem Visualization",[https://blog.locus.sh/travelling-salesman-problem-and-how-can-tech-solve-it/](https://blog.locus.sh/travelling-salesman-problem-and-how-can-tech-solve-it/)
+
+[9] Job Assignment,[https://www.geeksforgeeks.org/job-assignment-problem-using-branch-and-bound/](https://www.geeksforgeeks.org/job-assignment-problem-using-branch-and-bound/)
+
+[10] Huffman Coding Algorithm,https:[//www.programiz.com/dsa/huffman-coding.](//www.programiz.com/dsa/huffman-coding.
+)
