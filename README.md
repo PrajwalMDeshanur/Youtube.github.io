@@ -297,7 +297,7 @@ Space Complexity: O(V), as the extra space is needed for the stack used in the D
 
 ### **12.  Load Balancing for Physics Wallah's Online Classes**
 
-- Weighted Round Robin Load Balancing: PPhysics Wallah provides live online classes, which can attract a high number of concurrent users, especially during peak times. To ensure smooth streaming and minimal latency, load balancing techniques are used to distribute user requests efficiently across multiple servers. This prevents any single server from becoming a bottleneck and ensures a high-quality user experience.
+- Weighted Round Robin Load Balancing: Physics Wallah provides live online classes, which can attract a high number of concurrent users, especially during peak times. To ensure smooth streaming and minimal latency, load balancing techniques are used to distribute user requests efficiently across multiple servers. This prevents any single server from becoming a bottleneck and ensures a high-quality user experience.
   
 **Limitations and Challengs**
 
@@ -316,4 +316,25 @@ Time Complexity:
 Time Complexity: O(1) per request if the number of servers is static.
 Space Complexity: O(N), where N is the number of servers.
 
+### **13. Fast Access to Recently Viewed Videos**
+
+- Last-In-First-Out (LIFO) Stack: Physics Wallah wants to provide students with fast access to their most recently viewed videos. By using a LIFO stack, the platform can maintain the most recent video views in chronological order, allowing students to quickly return to their recent content.
+**Limitations and Challengs**
+
+- Real-Time Updates: Ensuring that the stack is updated in real-time with the latest video views to reflect the most current activity.
+- Content Management: Managing a diverse range of video content and ensuring that the stack operations remain efficient even with a high volume of recent views.
+- User Engagement: Enhancing user engagement by providing quick access to recently viewed videos, encouraging continuous learning and easy content resumption.
+
+  
+**Market Benifts:**
+
+- Real-Time Updates: Enables immediate access to the latest videos viewed by students, supporting a dynamic and user-friendly interface.
+- Personalization: Allows for personalized recommendations based on recent video interactions, enhancing the user experience.
+- Engagement Metrics: Supports the measurement and analysis of user engagement through tracking of recent video views and content preferences.
+  
+Time Complexity:
+Push Operation: O(1) - Adding a recently viewed video to the stack.
+Pop Operation: O(1) - Removing the most recently viewed video from the stack.
+
+Space Complexity:O(n), where n is the number of recent videos stored in the stack. This ensures efficient use of memory for managing recent video views.
 
