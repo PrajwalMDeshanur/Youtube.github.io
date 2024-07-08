@@ -1,3 +1,6 @@
+
+![image](https://github.com/PrajwalMDeshanur/Youtube.github.io/assets/147541354/c8083272-594b-4f2a-8723-61a078071781)
+
 # PW-An Online Education Platform Portfolio
 #### PW's Smart Data Structures: Enhancing Quality Education
 <dl>
@@ -83,7 +86,7 @@ Here is my code for: [InvertedIndex](Code/InvertedIndex.cpp),
 - Ranking Algorithm: Accurately reflecting student preferences and adapting to real-time changes.
 - Delivery Assurance: Ensuring search results are timely and efficiently managed.
 - Scalability: Handling large volumes of search queries as user base grows.
-  
+
 **Market Benifts:**
   
 - Improved Communication: Keeps students informed about updates, deadlines, and new content.
@@ -93,6 +96,7 @@ Here is my code for: [InvertedIndex](Code/InvertedIndex.cpp),
 Time Complexity: O(log n) for insertion and extraction in the Min-Heap.
 Space Complexity: O(n) proportional to the number of pending notifications.
  
+Here is my code for:[Priority Queue](Code/Priority_Queue.cpp).
 
 ### **3. Real-Time Notifications**
 
@@ -111,6 +115,7 @@ Space Complexity: O(n) proportional to the number of pending notifications.
 Time Complexity: O(log n) for insertion and extraction in the Min-Heap.
 Space Complexity: O(n) proportional to the number of pending notifications.
  
+Here is my code:[Min-Heap](Code/Min_Heap.cpp)
 
 ### **4. PW Store for Merchandise, Books, and Student-Related Items**
 
@@ -134,6 +139,8 @@ To enhance the shopping experience, the store employs collaborative filtering al
 Time Complexity: O(log n) for insertions, deletions, and searches.
 Space Complexity: O(n).
 
+Here is my code:[Red-Black Tree](Code/Red_Black_Tree.cpp).
+
 ### **5. Real-Time Course Progress Tracking**
 
 - Segment Tree: The platform tracks students' course progress in real-time, providing timely insights and updates on completed and pending lessons. This allows both students and educators to monitor progress accurately and make data-driven decisions.
@@ -151,7 +158,8 @@ Space Complexity: O(n).
 
 Time Complexity: O(log n) for range queries and updates.
 Space Complexity: O(n).
- 
+
+ Here is my code:[Segment Tree](Code/Segment_Tree.cpp)
 
 ### **6. Efficient Resource Allocation for Online Classes**
 
@@ -171,7 +179,9 @@ Space Complexity: O(n).
 
 Time Complexity: O(nW) where n is the number of classes and W is the total available resources (e.g., bandwidth units).
 Space Complexity: O(nW) due to the dynamic programming table used for computing the optimal allocation.
- 
+
+Here is my code:
+
 ### **7.Nearby Location Student Profiles Auto-Suggestion**
 
 - K-D Tree: The platform provides auto-suggestions for student profiles based on nearby locations, allowing users to connect with other students in their vicinity for study groups, collaborations, or social interactions.
