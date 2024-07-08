@@ -28,7 +28,7 @@ This page hosts:
 2. [💼 Need of Portfolio](#need-of-portfolio)
 3. [🎯 Objectives](#objectives)
 4. [📈 Business Use Cases](#business-use-cases)
-5. [🧠 Learning and Key Takeaways](#learning-outcomes)
+5. [🧠 Learning and Key Takeaways](#learning-and-key-takeaways)
 6. [📑 References](#references)
 
 # Introduction
