@@ -51,38 +51,107 @@ The portfolio bridges academic concepts with practical applications, showcasing 
 
 ## Business Use Cases
 
-### 1.**Search Completion or suggestion in PW App**
-
-
-**Algorithm**: Trie and InvertedIndexed
-
-**Use Case:**
-The app aims to deliver real-time search suggestions as students input their queries. These suggestions include relevant course names, teacher names, and specific topics, considering the user’s preferences, past interactions, and current academic trends. By proactively anticipating student needs and providing precise suggestions, Physics Wallah can streamline the search process, aiding in quick decision-making and enhancing student satisfaction. This feature is especially crucial during peak study times when students expect swift and efficient access to their desired courses and teachers.
-
-**Challenges:**
-The main challenge lies in efficiently managing a vast and continuously evolving database of courses, teachers, and educational content. Additionally, the system must handle a wide range of user queries, including typos, abbreviations, and varying degrees of specificity. Another critical challenge is balancing the breadth of suggestions with their relevance to the student’s preferences and academic needs.
-
-**Market Benifts:**
-An effective live search feature can significantly boost user engagement and satisfaction. By reducing the time and effort required to find the right courses or teachers, Physics Wallah can encourage more frequent usage and foster increased student loyalty. The personalized nature of the suggestions may also lead to the exploration of new courses and topics, enriching the overall learning experience and distinguishing Physics Wallah from its competitors.Use tries for substring matching and auto-suggestions as the user types. Use the inverted index for broader keyword searches.
-
-**Complexity Analysis**
-
+### **1.Search Completion or suggestion in PW App**
 
 
 **2. Ranked Search Results for Physics Wallah App**
-**Algorithms:** Max-Heap (Priority Queue) Algorithm
-**Use Case.**
-To enhance student satisfaction and facilitate course selection, Physics Wallah needs to present search results in an order that aligns with student preferences and expectations. This involves developing a sophisticated ranking algorithm that considers multiple factors, including course ratings, the number of students enrolled, and teacher ratings. By tailoring the search results to individual students, Physics Wallah can ensure that the most relevant and appealing options are displayed prominently, increasing the likelihood of course enrollment.
+**Description:** 
+- The app delivers real-time search suggestions as students input queries, including course names, teacher names, and specific topics. It considers user preferences, past interactions, and academic trends to streamline search and enhance decision-making during peak study times.Algoritm used is Trie and Inverted Index/
+
+
+**Limitations**
+
+Hash Table: While providing O(1) average time complexity for lookups, hash tables do not support efficient prefix-based search required for real-time suggestions.
+Simple List: Requires O(n) time complexity for each search, making it inefficient for real-time applications with a large dataset.
+
+**Challengs:**
+
+- Database Management: Efficiently managing a vast and evolving database of courses, teachers, and educational content.
+- Query Handling: Handling diverse user queries including typos, abbreviations, and varying specificity levels.
+- Relevance Balancing: Balancing broad suggestions with relevance to student preferences and academic needs.
+- 
+**Market Benifts:**
+  
+- Enhanced User Engagement: Swift access to desired courses and teachers boosts satisfaction and encourages frequent app usage.
+- Increased User Satisfaction: Personalized suggestions improve user experience and loyalty.
+- Exploratory Learning: Encourages exploration of new courses and topics, enriching overall learning experiences.
+
+Time Complexity: O(m) where m is the length of the search query.
+Space Complexity: O(ALPHABET_SIZE * m) where ALPHABET_SIZE is the number of possible characters.
+Inverted Index (Keyword Searches):
+Time Complexity: O(1) on average for keyword lookups.
+Space Complexity: O(n * m) where n is the number of documents and m is the average length of documents.
+
+**2. Ranked Search Results for Physics Wallah App**
+**Description:** 
+- **Description:** 
+- Max-Heap (Priority Queue) Algorithm: To prioritize and display search results based on relevance and user preferences.
+
+**Limitations**
+Max-Heap: While effective for maintaining a priority queue of search results, it requires continual reordering as new results are added or user preferences change, which can impact real-time responsiveness.
+
+**Challengs:**
+- Ranking Algorithm: Accurately reflecting student preferences and adapting to real-time changes.
+- Delivery Assurance: Ensuring search results are timely and efficiently managed.
+- Scalability: Handling large volumes of search queries as user base grows.
+**Market Benifts:**
+  
+- Improved Communication: Keeps students informed about updates, deadlines, and new content.
+- Increased Engagement: Maintains interest and participation, leading to higher retention.
+- Enhanced User Experience: Ensures prompt delivery of relevant search results for a smooth user experience.
+
+Time Complexity: O(log n) for insertion and extraction in the Min-Heap.
+Space Complexity: O(n) proportional to the number of pending notifications.
+ 
+
+**3. Real-Time Notifications**
+**Description:** 
+- Min-Heap: To enhance student engagement and ensure timely delivery of updates.
+
+**Limitations**
+Min-Heap: While efficient for prioritizing and managing notifications based on urgency, it requires continuous reordering as priorities change dynamically, potentially impacting performance in real-time scenarios with rapid updates.
 
 **Challengs:**
 The primary challenge is creating a ranking algorithm that accurately reflects student preferences and priorities. This requires collecting and analyzing vast amounts of data, such as past enrollments, search history, and interactions with the app. The algorithm also needs to adapt to real-time changes, such as course availability or new teacher ratings.
 
 **Market Benifts:**
-A well-optimized search ranking algorithm can significantly impact Physics Wallah's user engagement and retention. By showcasing the most relevant and high-quality courses to students, the platform can increase enrollment rates, improve student satisfaction, and foster long-term loyalty.
+- Improved Communication: Timely notifications keep students informed about course updates, deadlines, and new content, enhancing their overall learning experience.
+- Increased Engagement: Regular and relevant updates help maintain student interest and participation, leading to higher retention rates.
+- Enhanced User Experience: Efficient notification management ensures that students receive updates without delay, contributing to a smooth and responsive user experience.
 
-Time Complexity (Search): O(nlogn)
-Space Complexity: O(n)
+Time Complexity: O(log n) for insertion and extraction in the Min-Heap.
+Space Complexity: O(n) proportional to the number of pending notifications.
+ 
 
+**4. PW Store for Merchandise, Books, and Student-Related Items**
+**Description:** 
+- Inventory Management and Personalized Recommendations
+Balanced Binary Search Tree (BST) for Inventory Management:
+To efficiently manage inventory, the PW Store uses a balanced BST (e.g., AVL Tree, Red-Black Tree). This data structure allows for efficient insertions, deletions, and searches, ensuring the inventory is always accurately maintained and can be queried quickly.
+
+- Collaborative Filtering for Personalized Recommendations:
+To enhance the shopping experience, the store employs collaborative filtering algorithms. This approach provides tailored product recommendations based on user preferences and purchase history, helping to increase engagement and sales.
+
+**Limitations**
+- Hash Table for Inventory Management: While hash tables provide O(1) average time complexity for insertions and lookups, they are not suitable for range queries, which are essential for managing inventory levels and filtering items based on price or category.
+- Simple List for Personalized Recommendations: A simple list would require O(n) time complexity for searching and filtering recommendations, making it inefficient for real-time use with a large number of users and items.
+
+**Market Benifts:**
+- Enhanced Shopping Experience: Seamless and intuitive shopping increases customer satisfaction and sales.
+- Improved Inventory Management: Efficient tracking reduces stockouts and overstock situations.
+- Personalized Recommendations: Tailored suggestions based on user behavior increase average order value and loyalty.
+
+**Complexity Analysis**
+- Balanced Binary Search Tree (BST):
+  
+Time Complexity: O(log n) for insertions, deletions, and searches.
+Space Complexity: O(n).
+
+- Collaborative Filtering:
+
+Time Complexity: O(mn) for matrix factorization, where m is the number of users and n is the number of items.
+
+Space Complexity: O(mn).
 
 
 
