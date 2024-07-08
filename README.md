@@ -1,5 +1,7 @@
 
-![image](https://github.com/PrajwalMDeshanur/Youtube.github.io/assets/147541354/c8083272-594b-4f2a-8723-61a078071781)
+<img src="https://github.com/PrajwalMDeshanur/Youtube.github.io/assets/147541354/c8083272-594b-4f2a-8723-61a078071781" alt="Image" style="width:600px; height:500px; display: block; margin: 0 auto;">
+
+
 
 # PW-An Online Education Platform Portfolio
 #### PW's Smart Data Structures: Enhancing Quality Education
