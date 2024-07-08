@@ -71,7 +71,7 @@ The portfolio bridges academic concepts with practical applications, showcasing 
 Time Complexity: O(1) on average for keyword lookups.
 Space Complexity: O(n * m) where n is the number of documents and m is the average length of documents.
 
-Here necessary code:[InvertedIndex](Code/InvertedIndex.cpp)
+Here is my code for: [InvertedIndex](Code/InvertedIndex.cpp),
 
 ### **2. Ranked Search Results for Physics Wallah App**
 
