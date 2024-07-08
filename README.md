@@ -368,3 +368,25 @@ Pop Operation: O(1) - Removing the most recently viewed video from the stack.
 Space Complexity:O(n), where n is the number of recent videos stored in the stack. This ensures efficient use of memory for managing recent video views.
 
 Here is my Code:[LIFO](Code/Lifo/Lifo.cpp)
+
+# References
+
+[1]Physcics Wallah,https://www.pw.live/ 
+
+[2] Inverted Index Code,https://www.geeksforgeeks.org/inverted-index/
+
+[3] Trie Code,https://www.geeksforgeeks.org/trie-insert-and-search/
+
+[4] François Aubry, "Graphs - Topological sort",INGInious, https://inginious.org/course/competitive-programming/graphs-toposort
+
+[5] Quora PW Business Model,https://www.quora.com/What-is-the-business-model-of-Physics-Wallah
+
+[6], Yasin,KD Trees,https://codeofcode.org/lessons/kd-trees-in-cpp/
+
+[7] Sebastian De Lima, "A quick explanation of DFS & BFS (Depth First Search & Breadth-First Search)", Medium, https://medium.com/analytics-vidhya/a-quick-explanation-of-dfs-bfs-depth-first-search-breadth-first-search-b9ef4caf952c
+
+[8] locus, "Traveling Salesman Problem Visualization", https://blog.locus.sh/travelling-salesman-problem-and-how-can-tech-solve-it/
+
+[9] Job Assignment,https://www.geeksforgeeks.org/job-assignment-problem-using-branch-and-bound/
+
+[10] Huffman Coding Algorithm,https://www.programiz.com/dsa/huffman-coding.
