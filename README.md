@@ -95,7 +95,8 @@ Here is my code for: [InvertedIndex](Code/InvertedIndex.cpp),[Trie](Code/Trie.cp
 - Increased Engagement: Maintains interest and participation, leading to higher retention.
 - Enhanced User Experience: Ensures prompt delivery of relevant search results for a smooth user experience.
 
-Time Complexity: O(log n) for insertion and extraction in the Min-Heap.
+Time Complexity: O(log n) for insertion and extraction in the Max-Heap.
+
 Space Complexity: O(n) proportional to the number of pending notifications.
  
 Here is my code for:[Priority Queue](Code/Priority_Queue.cpp).
@@ -115,6 +116,7 @@ Here is my code for:[Priority Queue](Code/Priority_Queue.cpp).
 - Enhanced User Experience: Efficient notification management ensures that students receive updates without delay, contributing to a smooth and responsive user experience.
 
 Time Complexity: O(log n) for insertion and extraction in the Min-Heap.
+
 Space Complexity: O(n) proportional to the number of pending notifications.
  
 Here is my code:[Min-Heap](Code/Min_Heap.cpp)
@@ -139,6 +141,7 @@ To enhance the shopping experience, the store employs collaborative filtering al
 
 
 Time Complexity: O(log n) for insertions, deletions, and searches.
+
 Space Complexity: O(n).
 
 Here is my code:[Red-Black Tree](Code/Red_Black_Tree.cpp).
@@ -159,6 +162,7 @@ Here is my code:[Red-Black Tree](Code/Red_Black_Tree.cpp).
 - Data-Driven Insights: Allows educators to make informed decisions based on accurate progress data.
 
 Time Complexity: O(log n) for range queries and updates.
+
 Space Complexity: O(n).
 
  Here is my code:[Segment Tree](Code/Segment_Tree.cpp)
@@ -180,6 +184,7 @@ Space Complexity: O(n).
 - Scalability: Supports a growing number of students and classes without degradation in quality.
 
 Time Complexity: O(nW) where n is the number of classes and W is the total available resources (e.g., bandwidth units).
+
 Space Complexity: O(nW) due to the dynamic programming table used for computing the optimal allocation.
 
 Here is my code:[Knapsack.cpp](Code/Knapsack.cpp)
@@ -202,6 +207,7 @@ Here is my code:[Knapsack.cpp](Code/Knapsack.cpp)
 Time Complexity:
 Insertion: O(log n) for inserting a student profile into the K-D Tree.
 Nearest Neighbor Search: O(log n) for querying nearby student profiles.
+
 Space Complexity: O(n) proportional to the number of student profiles.
 
 Here is my Code:[K-D Trees](Code/KD-Trees.cpp)
@@ -222,8 +228,8 @@ Here is my Code:[K-D Trees](Code/KD-Trees.cpp)
 - Enhanced User Experience: Keeps the platform dynamic and relevant by showcasing popular courses.
 - Revenue Growth: Driving more enrollments in trending courses can increase revenue
 
-Time Complexity:
 Time Complexity: The average time complexity of Quick Sort is O(n log n), where n is the number of courses.
+
 Space Complexity: The space complexity of Quick Sort is O(log n) for the in-place version, which is needed for the recursion stack.
 
 Here is my Code:[Quick Sort](Code/Quick_Sort.cpp)
@@ -245,8 +251,9 @@ Here is my Code:[Quick Sort](Code/Quick_Sort.cpp)
 - Community Building: Supports local educational institutions by increasing their visibility and fostering stronger community ties.
 
   
-Time Complexity:
+
 Time Complexity: k-d Trees provide O(log n) average time complexity for range queries, where n is the number of Vidyapeeth locations.
+
 Space Complexity: k-d Trees require O(n) space complexity, where n is the number of Vidyapeeth locations.
 
 Here is my Code:[K-D Trees](Code/KD-Trees.cpp)
@@ -267,9 +274,8 @@ Here is my Code:[K-D Trees](Code/KD-Trees.cpp)
 - Efficient Resource Allocation: Ensures that the best teachers are matched with students who can benefit the most, maximizing educational impact.
 - Competitive Advantage: Differentiates the platform by offering high-quality, personalized education services.
 
-  
-Time Complexity:
 Time Complexity: The Hungarian algorithm has a time complexity of O(n^3), where n is the number of students or teachers.
+
 Space Complexity: The space complexity is O(n^2), as it requires storing the cost matrix and auxiliary data structures.
 
 Here is my code:[Job Assignment](Code/job_assignment.cpp)
@@ -290,9 +296,8 @@ Here is my code:[Job Assignment](Code/job_assignment.cpp)
 - Continuous Playback on All Devices: Ensures that videos are available in multiple formats and resolutions, providing seamless playback on various devices and network conditions.
 - Enhanced User Experience: Minimizes latency in video availability, ensuring students can access content quickly and without interruptions.
 
-  
-Time Complexity:
 Time Complexity: O(nlog(n)), where n is the number of unique characters in the metadata.
+
 Space Complexity: O(n), for storing the Huffman tree and encoded data.
 
 Here is my Code:[Huffman Coding](Code/hufman_coding.cpp)
@@ -313,8 +318,8 @@ Here is my Code:[Huffman Coding](Code/hufman_coding.cpp)
 - Improved Learning Path: Ensures that students follow a logical progression in their learning materials, enhancing comprehension and retention.
 - Increased Engagement: By recommending the next relevant video, students are more likely to continue watching and engaging with the content.
   
-Time Complexity:
 Time Complexity: O(V + E), where V is the number of videos and E is the number of dependencies.
+
 Space Complexity: O(V), as the extra space is needed for the stack used in the DFS-based topological sort.
 
 Here is my Code:[Topological Sort](Code/Topological_Sort.cpp)
@@ -334,9 +339,9 @@ Here is my Code:[Topological Sort](Code/Topological_Sort.cpp)
 - Scalability: Ability to handle a large number of simultaneous users without degrading performance.
 - Availability: High availability of services due to reduced chances of server overload, ensuring that classes are not interrupted.
 - Enhanced User Experience: Smooth and uninterrupted streaming of live classes, leading to higher student satisfaction and retention.
-  
-Time Complexity:
+
 Time Complexity: O(1) per request if the number of servers is static.
+
 Space Complexity: O(N), where N is the number of servers.
 
 Here is my Code:[Round Robin](Code/RR.cpp)
