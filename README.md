@@ -58,7 +58,7 @@ The portfolio bridges academic concepts with practical applications, showcasing 
 
 ### **1.Search Completion or suggestion in PW App**
 
-- The app delivers real-time search suggestions as students input queries, including course names, teacher names, and specific topics. It considers user preferences, past interactions, and academic trends to streamline search and enhance decision-making during peak study times.Algoritm used is Trie and Inverted Index/
+- Trie and Inverted Index:The PW app delivers real-time search suggestions as students input queries, including course names, teacher names, and specific topics. It considers user preferences, past interactions, and academic trends to streamline the search process and enhance decision-making during peak study times.
 
 **Challengs:**
 
@@ -72,11 +72,15 @@ The portfolio bridges academic concepts with practical applications, showcasing 
 - Increased User Satisfaction: Personalized suggestions improve user experience and loyalty.
 - Exploratory Learning: Encourages exploration of new courses and topics, enriching overall learning experiences.
 
+Time Complexity:
+Trie: O(m) for insertion and search operations, where m is the length of the key.
+Inverted Index: O(1) on average for keyword lookups.
 
-Time Complexity: O(1) on average for keyword lookups.
-Space Complexity: O(n * m) where n is the number of documents and m is the average length of documents.
+Space Complexity:
+Trie: O(n * m) where n is the number of keys and m is the average length of keys.
+Inverted Index: O(n * m) where n is the number of documents and m is the average length of documents.
 
-Here is my code for: [InvertedIndex](Code/InvertedIndex.cpp),
+Here is my code for: [InvertedIndex](Code/InvertedIndex.cpp),[Trie](Code/Trie.cpp).
 
 ### **2. Ranked Search Results for Physics Wallah App**
 
@@ -182,7 +186,7 @@ Space Complexity: O(n).
 Time Complexity: O(nW) where n is the number of classes and W is the total available resources (e.g., bandwidth units).
 Space Complexity: O(nW) due to the dynamic programming table used for computing the optimal allocation.
 
-Here is my code:
+Here is my code:[Knapsack.cpp](Code/Knapsack.cpp)
 
 ### **7.Nearby Location Student Profiles Auto-Suggestion**
 
@@ -204,6 +208,8 @@ Insertion: O(log n) for inserting a student profile into the K-D Tree.
 Nearest Neighbor Search: O(log n) for querying nearby student profiles.
 Space Complexity: O(n) proportional to the number of student profiles.
 
+Here is my Code:[K-D Trees](Code/KD-Trees.cpp)
+
 ### **8.Trending Course Identification**
 
 - Quick Sort: The platform identifies trending courses based on recent enrollments and user interactions, displaying these courses prominently to users. This helps students stay updated with popular courses and aligns the platform's offerings with current trends.
@@ -223,6 +229,8 @@ Space Complexity: O(n) proportional to the number of student profiles.
 Time Complexity:
 Time Complexity: The average time complexity of Quick Sort is O(n log n), where n is the number of courses.
 Space Complexity: The space complexity of Quick Sort is O(log n) for the in-place version, which is needed for the recursion stack.
+
+Here is my Code:[Quick Sort](Code/Quick_Sort.cpp)
 
 ### **9.Finding All Vidyapeeth (Offline Classes) for Students**
 
@@ -245,6 +253,8 @@ Time Complexity:
 Time Complexity: k-d Trees provide O(log n) average time complexity for range queries, where n is the number of Vidyapeeth locations.
 Space Complexity: k-d Trees require O(n) space complexity, where n is the number of Vidyapeeth locations.
 
+Here is my Code:[K-D Trees](Code/KD-Trees.cpp)
+
 ### **10. Matching Students with Saarthi Personal Teachers and Rank-Producing Educators**
 
 -  Assignment Problem Algorithm : Physics Wallah aims to enhance its VP Live service by efficiently matching students with Saarthi personal teachers and rank-producing educators. This involves using the assignment problem algorithm to allocate resources (teachers) to tasks (students) in an optimal way, ensuring personalized attention and improving academic outcomes.
@@ -266,6 +276,7 @@ Time Complexity:
 Time Complexity: The Hungarian algorithm has a time complexity of O(n^3), where n is the number of students or teachers.
 Space Complexity: The space complexity is O(n^2), as it requires storing the cost matrix and auxiliary data structures.
 
+Here is my code:[Job Assignment](Code/job_assignment.cpp)
 
 ### **10. Efficient Video Transcoding for Enhanced Student Experience**
 
@@ -288,6 +299,8 @@ Time Complexity:
 Time Complexity: O(nlog(n)), where n is the number of unique characters in the metadata.
 Space Complexity: O(n), for storing the Huffman tree and encoded data.
 
+Here is my Code:[Huffman Coding](Code/hufman_coding.cpp)
+
 ### **11. Personalized Playlist for Students on Physics Wallah App**
 
 - Topological Sort: Physics Wallah allows students to save personalized playlists for future viewing. This feature organizes educational videos, ensuring that related content is recommended in the correct sequence. For example, if a student is watching "Physics Class 12 - Kinematics Part 1," subsequent parts will be suggested in a linear and logical order. By treating each video as a node in a Directed Acyclic Graph (DAG) and using topological sort, the app can recommend videos in the appropriate sequence based on their dependencies.
@@ -308,6 +321,7 @@ Time Complexity:
 Time Complexity: O(V + E), where V is the number of videos and E is the number of dependencies.
 Space Complexity: O(V), as the extra space is needed for the stack used in the DFS-based topological sort.
 
+Here is my Code:[Topological Sort](Code/Topological_Sort.cpp)
 
 ### **12.  Load Balancing for Physics Wallah's Online Classes**
 
@@ -319,7 +333,6 @@ Space Complexity: O(V), as the extra space is needed for the stack used in the D
 - Resource Utilization: Ensuring efficient use of server resources, such as CPU, memory, and bandwidth, to prevent any server from being overburdened.
 - Server Health Monitoring: Continuously monitoring server health metrics to direct traffic to the most capable servers.
 
-  
 **Market Benifts:**
 
 - Scalability: Ability to handle a large number of simultaneous users without degrading performance.
@@ -329,6 +342,8 @@ Space Complexity: O(V), as the extra space is needed for the stack used in the D
 Time Complexity:
 Time Complexity: O(1) per request if the number of servers is static.
 Space Complexity: O(N), where N is the number of servers.
+
+Here is my Code:[Round Robin](Code/RR.cpp)
 
 ### **13. Fast Access to Recently Viewed Videos**
 
@@ -352,3 +367,4 @@ Pop Operation: O(1) - Removing the most recently viewed video from the stack.
 
 Space Complexity:O(n), where n is the number of recent videos stored in the stack. This ensures efficient use of memory for managing recent video views.
 
+Here is my Code:[LIFO](Code/Lifo/Lifo.cpp)
