@@ -53,9 +53,6 @@ The portfolio bridges academic concepts with practical applications, showcasing 
 
 ### **1.Search Completion or suggestion in PW App**
 
-
-**2. Ranked Search Results for Physics Wallah App**
-**Description:** 
 - The app delivers real-time search suggestions as students input queries, including course names, teacher names, and specific topics. It considers user preferences, past interactions, and academic trends to streamline search and enhance decision-making during peak study times.Algoritm used is Trie and Inverted Index/
 
 
@@ -83,17 +80,16 @@ Time Complexity: O(1) on average for keyword lookups.
 Space Complexity: O(n * m) where n is the number of documents and m is the average length of documents.
 
 **2. Ranked Search Results for Physics Wallah App**
-**Description:** 
-- **Description:** 
+
 - Max-Heap (Priority Queue) Algorithm: To prioritize and display search results based on relevance and user preferences.
 
-**Limitations**
+**Limitations and Challengs:**
 Max-Heap: While effective for maintaining a priority queue of search results, it requires continual reordering as new results are added or user preferences change, which can impact real-time responsiveness.
 
-**Challengs:**
 - Ranking Algorithm: Accurately reflecting student preferences and adapting to real-time changes.
 - Delivery Assurance: Ensuring search results are timely and efficiently managed.
 - Scalability: Handling large volumes of search queries as user base grows.
+  
 **Market Benifts:**
   
 - Improved Communication: Keeps students informed about updates, deadlines, and new content.
@@ -105,13 +101,12 @@ Space Complexity: O(n) proportional to the number of pending notifications.
  
 
 **3. Real-Time Notifications**
-**Description:** 
+
 - Min-Heap: To enhance student engagement and ensure timely delivery of updates.
 
-**Limitations**
+**Limitations and Challengs:**
 Min-Heap: While efficient for prioritizing and managing notifications based on urgency, it requires continuous reordering as priorities change dynamically, potentially impacting performance in real-time scenarios with rapid updates.
 
-**Challengs:**
 The primary challenge is creating a ranking algorithm that accurately reflects student preferences and priorities. This requires collecting and analyzing vast amounts of data, such as past enrollments, search history, and interactions with the app. The algorithm also needs to adapt to real-time changes, such as course availability or new teacher ratings.
 
 **Market Benifts:**
@@ -124,7 +119,7 @@ Space Complexity: O(n) proportional to the number of pending notifications.
  
 
 **4. PW Store for Merchandise, Books, and Student-Related Items**
-**Description:** 
+
 - Inventory Management and Personalized Recommendations
 Balanced Binary Search Tree (BST) for Inventory Management:
 To efficiently manage inventory, the PW Store uses a balanced BST (e.g., AVL Tree, Red-Black Tree). This data structure allows for efficient insertions, deletions, and searches, ensuring the inventory is always accurately maintained and can be queried quickly.
@@ -132,7 +127,7 @@ To efficiently manage inventory, the PW Store uses a balanced BST (e.g., AVL Tre
 - Collaborative Filtering for Personalized Recommendations:
 To enhance the shopping experience, the store employs collaborative filtering algorithms. This approach provides tailored product recommendations based on user preferences and purchase history, helping to increase engagement and sales.
 
-**Limitations**
+**Limitations and Challengs**
 - Hash Table for Inventory Management: While hash tables provide O(1) average time complexity for insertions and lookups, they are not suitable for range queries, which are essential for managing inventory levels and filtering items based on price or category.
 - Simple List for Personalized Recommendations: A simple list would require O(n) time complexity for searching and filtering recommendations, making it inefficient for real-time use with a large number of users and items.
 
@@ -154,6 +149,80 @@ Time Complexity: O(mn) for matrix factorization, where m is the number of users 
 Space Complexity: O(mn).
 
 
+**5. Real-Time Course Progress Tracking**
 
+- Segment Tree: The platform tracks students' course progress in real-time, providing timely insights and updates on completed and pending lessons. This allows both students and educators to monitor progress accurately and make data-driven decisions.
+**Limitations and Challengs**
+
+- Real-Time Updates: Ensuring progress data is updated promptly as students complete lessons.
+- Data Aggregation: Efficiently aggregating and summarizing progress across multiple courses.
+- Scalability: Managing progress tracking for a large and growing number of students.
+  
+**Market Benifts:**
+- Enhanced User Experience: Provides students with timely feedback on their progress, keeping them motivated.
+- Improved Learning Outcomes: Helps students and educators identify areas needing attention, ensuring timely interventions.
+- Data-Driven Insights: Allows educators to make informed decisions based on accurate progress data.
+
+Time Complexity: O(log n) for range queries and updates.
+Space Complexity: O(n).
  
+
+**6. Efficient Resource Allocation for Online Classes**
+
+- Knapsack Problem Algorithm: The platform allocates resources such as bandwidth, server capacity, and tutor availability for online classes to ensure a smooth and efficient learning experience for students.
+  
+**Limitations and Challengs**
+
+- Greedy Algorithm: May not provide an optimal solution for resource allocation, especially when dealing with diverse resource types and varying class requirements.
+- Resource Optimization: Efficiently allocating limited resources to maximize the number of successful class sessions.
+- Real-Time Allocation: Adjusting resource allocation dynamically based on current demand.
+- Scalability: Handling increasing resource demands as the number of students and classes grows.
+
+**Market Benifts:**
+- Enhanced User Experience: Ensures smooth and uninterrupted online classes.
+- Resource Efficiency: Optimizes the use of available resources, reducing operational costs.
+- Scalability: Supports a growing number of students and classes without degradation in quality.
+
+Time Complexity: O(nW) where n is the number of classes and W is the total available resources (e.g., bandwidth units).
+Space Complexity: O(nW) due to the dynamic programming table used for computing the optimal allocation.
+ 
+**7.Nearby Location Student Profiles Auto-Suggestion**
+
+- K-D Tree: The platform provides auto-suggestions for student profiles based on nearby locations, allowing users to connect with other students in their vicinity for study groups, collaborations, or social interactions.
+  
+**Limitations and Challengs**
+
+- Efficient Spatial Queries: Managing spatial data efficiently to provide real-time suggestions.
+- Scalability: Handling a large and growing number of student profiles.
+- Accuracy: Ensuring the accuracy of location data and relevance of suggestions.
+
+**Market Benifts:**
+- Enhanced Social Learning: Encourages students to form study groups and collaborate with peers nearby.
+- Increased Engagement: Promotes active participation and interaction among students.
+- Personalized User Experience: Provides relevant and location-based profile suggestions, enhancing user satisfaction.
+  
+Time Complexity:
+Insertion: O(log n) for inserting a student profile into the K-D Tree.
+Nearest Neighbor Search: O(log n) for querying nearby student profiles.
+Space Complexity: O(n) proportional to the number of student profiles.
+
+**8.Trending Course Identification**
+
+- Quick Sort: The platform identifies trending courses based on recent enrollments and user interactions, displaying these courses prominently to users. This helps students stay updated with popular courses and aligns the platform's offerings with current trends.
+  
+**Limitations and Challengs**
+
+- Efficient Data Handling: Managing and sorting the massive volume of course interaction data generated by user enrollments and activity.
+- Real-Time Updates: Continuously updating the trending course list as new data points (enrollments and interactions) are added.
+- Scalability: Efficiently processing large datasets to ensure the platform remains responsive and up-to-date.
+  
+**Market Benifts:**
+
+- Increased Engagement: Highlighting trending courses attracts user attention and encourages enrollments.
+- Enhanced User Experience: Keeps the platform dynamic and relevant by showcasing popular courses.
+- Revenue Growth: Driving more enrollments in trending courses can increase revenue
+
+Time Complexity:
+Time Complexity: The average time complexity of Quick Sort is O(n log n), where n is the number of courses.
+Space Complexity: The space complexity of Quick Sort is O(log n) for the in-place version, which is needed for the recursion stack.
 
