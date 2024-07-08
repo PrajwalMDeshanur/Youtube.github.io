@@ -24,15 +24,11 @@
 
 This page hosts:
 
-**1. Introduction**
-
-**2. Need of Portfolio**
-
-**3. Objectives**
-
-**4. Business Use Cases**
-
-**5. References**
+1. [🌱 Introduction](#introduction)
+2. [💼 Need of Portfolio](#need-of-portfolio)
+3. [🎯 Objectives](#objectives)
+4. [📈 Business Use Cases](#business-use-cases)
+5. [📑 References](#references)
 
 # Introduction
 Implementation of efficient Datastructure and Algorithm in enhancing of students experience.
@@ -42,7 +38,7 @@ The sector that molds future generations is the education sector. By 2025, it is
 By using advanced algorithmic techniques and innovative data structures, this project aims to propose solutions to real-world business challenges. From giving a better approach for doubts and queries of students to improvision recommendation of courses.
 
 
-# Why Portfolio
+# Need of Portfolio
 The portfolio bridges academic concepts with practical applications, showcasing the ability to apply theoretical knowledge from DSA and APS courses to real-world challenges.It highlights not only the capability to solve practical problems but also a commitment to advancing the quality and effectiveness of the services, making it a valuable asset for educational innovation and professional growth in the education sector.Enhancing features such as personalized learning pathways, content recommendations, and performance analytics can significantly improve student engagement and satisfaction. 
 
 # Objectives
