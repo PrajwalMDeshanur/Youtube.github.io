@@ -55,7 +55,8 @@ The portfolio bridges academic concepts with practical applications, showcasing 
 
 ### **1.Search Completion or suggestion in PW App**
 
-- Trie and Inverted Index:The PW app delivers real-time search suggestions as students input queries, including course names, teacher names, and specific topics. It considers user preferences, past interactions, and academic trends to streamline the search process and enhance decision-making during peak study times.
+- **Trie and Inverted Index:** The PW app delivers real-time search suggestions as students input queries, including course names, teacher names, and specific topics. It considers user preferences, past interactions, and academic trends to streamline the search process and enhance decision-making during peak study times.
+
 
 **Challengs:**
 
@@ -183,7 +184,7 @@ Space Complexity: O(n) proportional to the number of student profiles.
 
 Here is my Code:[K-D Trees](Code/KD-Trees.cpp)
 
-### **8.Trending Course Identification**
+### **7.Trending Course Identification**
 
 - Quick Sort: The platform identifies trending courses based on recent enrollments and user interactions, displaying these courses prominently to users. This helps students stay updated with popular courses and aligns the platform's offerings with current trends.
   
@@ -202,7 +203,7 @@ Space Complexity: The space complexity of Quick Sort is O(log n) for the in-plac
 
 Here is my Code:[Quick Sort](Code/Quick_Sort.cpp)
 
-### **9.Finding All Vidyapeeth (Offline Classes) for Students**
+### **8.Finding All Vidyapeeth (Offline Classes) for Students**
 
 -  K-D Trees: Physics Wallah App aims to provide students with quick and accurate information about nearby offline classes (Vidyapeeth). By utilizing geospatial data structures like k-d trees to store and query locations of offline classes, the platform can efficiently find all Vidyapeeth within a specified radius of the student's location, enhancing their learning experience.
   
@@ -223,7 +224,7 @@ Space Complexity: k-d Trees require O(n) space complexity, where n is the number
 
 Here is my Code:[K-D Trees](Code/KD-Trees.cpp)
 
-### **10. Matching Students with Saarthi Personal Teachers and Rank-Producing Educators**
+### **9. Matching Students with Saarthi Personal Teachers and Rank-Producing Educators**
 
 -  Assignment Problem Algorithm : Physics Wallah aims to enhance its VP Live service by efficiently matching students with Saarthi personal teachers and rank-producing educators. This involves using the assignment problem algorithm to allocate resources (teachers) to tasks (students) in an optimal way, ensuring personalized attention and improving academic outcomes.
   
