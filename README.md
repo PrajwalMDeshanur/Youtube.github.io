@@ -370,7 +370,7 @@ Time Complexity:
 
 Space Complexity:O(n).
 
-Here is my Code:
+Here is my Code: [Window_Sliding](Code/Sliding_Window.cpp)
 
 ### **15.Multi-Parameter Filtering for Courses**
 
@@ -393,7 +393,7 @@ Union-Find Operations: Nearly constant time, O(α(n))
 
 Space Complexity:O(n).
 
-Here is my Code:
+Here is my Code:[B-tree](Code/Btree)
 
 # Learning and Key Takeaways
 
@@ -425,3 +425,5 @@ By bridging theory with real-world scenarios, this portfolio showcases the subst
 
 [10] Huffman Coding Algorithm,https:[//www.programiz.com/dsa/huffman-coding.](//www.programiz.com/dsa/huffman-coding.
 )
+
+[11] Time based Window Sliding,https:[//www.programiz.com/dsa/huffman-coding.](https://stackoverflow.com/questions/14355318/time-based-sliding-window)
