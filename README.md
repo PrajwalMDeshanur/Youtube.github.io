@@ -56,7 +56,9 @@ The portfolio bridges academic concepts with practical applications, showcasing 
 
 - **Trie and Inverted Index:** The PW app delivers real-time search suggestions as students input queries, including course names, teacher names, and specific topics. It considers user preferences, past interactions, and academic trends to streamline the search process and enhance decision-making during peak study times.
 
-
+<p align="center">
+  <img src="https://github.com/PrajwalMDeshanur/Youtube.github.io/blob/main/assests/trie.gif?raw=true" style="width: 400px; height: auto;"  alt="OLA">
+<br>
 
 **Limitations:**
 
