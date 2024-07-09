@@ -59,6 +59,7 @@ The portfolio bridges academic concepts with practical applications, showcasing 
 <p align="center">
   <img src="https://github.com/PrajwalMDeshanur/Youtube.github.io/blob/main/assests/trie.gif?raw=true" style="width: 400px; height: auto;"  alt="OLA">
 <br>
+</p> 
 
 **Limitations:**
 
